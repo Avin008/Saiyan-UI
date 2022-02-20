@@ -1,0 +1,12 @@
+.ratings {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.ratings-star {
+  color: #f59e0b;
+}
+
+.off {
+  color: gray;
+}
