@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url("/Components/Avatar/avatar.css");
+@import url("/Components/Alert/alerts.css");
+@import url("/Components/Badge/badge.css");
+@import url("/Components/Button/button.css");
+@import url("/Components/Card/card.css");
+@import url("/Components/input/input.css");
+@import url("/Components/Lists/lists.css");
+@import url("/Components/Toast/toast.css");
+@import url("/Components/Ratings/ratings.css");
+@import url("/Components/Modals/modals.css");
+@import url("/Components/image/image.css");
+@import url("/Components/Navbar/navbar.css");
+
+:root {
+  --primary-color: #7952b3;
+  --secondary-color: #6c757d;
+  --background-color: whitesmoke;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2rem;
+}
+
+.navbar__brand {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: start;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar__items {
+  display: flex;
+}
+
+.navbar__items > * {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* navbar end */
+
+/* jumbotron */
+
+.jumbotron {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  margin: 0 4rem;
+  margin-top: 2rem;
+  grid-gap: 1rem;
+  row-gap: 1em;
+}
+
+.jumbotron__heading {
+  font-size: 2.5rem;
+}
+
+.jumbotron__span {
+  color: var(--primary-color);
+}
+
+.jumbotron__description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.jumbotron__CTA {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.jumbotron__CTA > * {
+  background-color: var(--primary-color);
+  padding: 0.8rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.jumbotron__btn--secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.jumbotron__image {
+  overflow: hidden;
+}
+
+.jumbotron__heading--second {
+  font-weight: 400;
+}
+
+.jumbotron__description--second {
+  font-size: 1.2rem;
+}
+
+/* jumbotron end */
+
+/* sidebar */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  box-shadow: 0px 0px 2px gray;
+  background-color: white;
+  gap: 1rem;
+}
+
+.sidebar {
+  background-color: white;
+  padding: 1rem 0;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  height: 500px;
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebar__items {
+  display: flex;
+  justify-content: start;
+  padding: 1rem;
+}
+
+.sidebar__heading {
+  padding: 0 1rem;
+  font-size: 1.3rem;
+}
+
+.sidebar__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.sidebar__links {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  width: 100%;
+}
+
+.sidebar__items:hover {
+  background-color: rgb(247, 238, 238);
+  color: black;
+  cursor: pointer;
+}
+
+/* main-content */
+
+.component {
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0px 0px 2px gray;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+/* span in section */
+
+.span {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.component__example-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: rgb(243, 236, 236);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 2px gray;
+  height: max-content;
+}
+
+.example-alert {
+  flex-direction: column;
+}
+
+.example-input {
+  flex-direction: column;
+}
+
+.example-navbar {
+  display: block;
+}
+
+.vertical__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.component__iframe {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.component__name {
+  font-size: 2.1rem;
+}
+
+.component > p {
+  font-weight: 500;
+}
+
+.component__description {
+  font-weight: 500;
+}
+
+.component > p {
+  font-weight: 500;
+}
