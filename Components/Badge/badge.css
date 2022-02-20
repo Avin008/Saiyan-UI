@@ -1,0 +1,60 @@
+:root {
+  --active-badge: #007bff;
+  --busy-badge: #dc3545;
+  --offline-badge: #343a40;
+  --icon-badge-bg: #f73b00;
+  --badge-bg-color: #585858;
+  --badge-text-color: #ffffff;
+}
+
+
+.avatar {
+  position: relative;
+}
+
+.avatar-badge {
+  background-color: rgb(190, 84, 102);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 2px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 70px;
+  right: -1px;
+  color: white;
+  font-weight: bold;
+}
+
+.badge--md {
+  background-color: green;
+  border: 3px solid white;
+  box-sizing: border-box;
+  top: 45px;
+}
+
+.badge__icon {
+  font-size: 2rem;
+  position: relative;
+  color: var(--badge-bg-color);
+}
+
+.badge__icon-badge {
+  background-color: var(--icon-badge-bg);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 2px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -15px;
+  top: -10px;
+  color: var(--badge-text-color);
+  font-weight: 600;
+}
