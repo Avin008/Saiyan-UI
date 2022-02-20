@@ -17,11 +17,16 @@
   --primary-color: #7952b3;
   --secondary-color: #6c757d;
   --background-color: whitesmoke;
+  --color-white: white;
+  --color-black: black;
+  --color-gray: gray;
+  --sidebar-hover-bg: rgb(247, 238, 238);
+  --example-container-bg: rgb(243, 236, 236);
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: whitesmoke;
+  background-color: var(--background-color);
   margin: 0;
 }
 
@@ -37,7 +42,7 @@ body {
 
 .navbar__brand {
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
   font-weight: 600;
   font-size: 1.3rem;
 }
@@ -59,7 +64,7 @@ body {
 
 .navbar__items > * {
   text-decoration: none;
-  color: white;
+  color: var(--color-white);
   font-weight: 500;
 }
 
@@ -71,10 +76,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1rem;
-  margin: 0 4rem;
+  margin: 0 3rem;
   margin-top: 2rem;
   grid-gap: 1rem;
-  row-gap: 1em;
+  row-gap: 1rem;
 }
 
 .jumbotron__heading {
@@ -99,7 +104,7 @@ body {
 .jumbotron__CTA > * {
   background-color: var(--primary-color);
   padding: 0.8rem;
-  color: white;
+  color: var(--color-white);
   text-decoration: none;
   border-radius: 0.6rem;
   font-weight: 600;
@@ -131,18 +136,18 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 0.2fr 1fr;
-  box-shadow: 0px 0px 2px gray;
-  background-color: white;
+  box-shadow: 0px 0px 2px var(--color-gray);
+  background-color: var(--color-white);
   gap: 1rem;
 }
 
 .sidebar {
-  background-color: white;
+  background-color: var(--color-white);
   padding: 1rem 0;
-  box-shadow: 0px 0px 2px gray;
+  box-shadow: 0px 0px 2px var(--color-gray);
   border-radius: 0.5rem;
   margin: 1rem;
-  height: 500px;
+  height: 31.25rem;
   position: sticky;
   top: 1rem;
 }
@@ -164,7 +169,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding-inline-start: 0;
-  height: 400px;
+  height: 25rem;
   overflow-y: scroll;
 }
 
@@ -176,8 +181,8 @@ body {
 }
 
 .sidebar__items:hover {
-  background-color: rgb(247, 238, 238);
-  color: black;
+  background-color: var(--sidebar-hover-bg);
+  color: var(--color-black);
   cursor: pointer;
 }
 
@@ -187,8 +192,8 @@ body {
   padding: 0.5rem 2rem;
   margin: 1rem;
   border-radius: 0.5rem;
-  background-color: white;
-  box-shadow: 0px 0px 2px gray;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 2px var(--color-gray);
   height: max-content;
   display: flex;
   flex-direction: column;
@@ -205,10 +210,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  background-color: rgb(243, 236, 236);
+  background-color: var(--example-container-bg);
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0px 0px 2px gray;
+  box-shadow: 0px 0px 2px var(--color-gray);
   height: max-content;
 }
 
