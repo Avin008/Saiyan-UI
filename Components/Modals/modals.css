@@ -1,0 +1,37 @@
+.modal {
+  width: 300px;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 400px;
+  background-color: white;
+}
+
+.modal__CTA {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.modal__CTA > * {
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.modal__secondary--btn {
+  background-color: #0069d9;
+}
+
+.modal__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.modal__close {
+  font-size: 1.4rem;
+}
