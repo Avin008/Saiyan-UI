@@ -1,0 +1,28 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+.toast-primary {
+  background-color: #3454d1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  width: max-content;
+}
+
+.toast-btn {
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.toast-btn:hover {
+  background-color: #3e65fb;
+}
+
+.toast-close {
+  cursor: pointer;
+}
