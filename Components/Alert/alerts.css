@@ -1,0 +1,74 @@
+/* alert common styles */
+
+:root {
+  --text-color: black;
+  --border-color: black;
+  --error-bg: #fdeded;
+  --warning-bg: #fff4e5;
+  --info-bg: #e5f6fd;
+  --success-bg: #edf7ed;
+  --error-icon-color: #f06360;
+  --warning-icon-color: #ffa624;
+  --info-icon-color: #34baf6;
+  --success-icon-color: #80c783;
+  --icon-font-size: 1.3rem;
+  /* common properties utils */
+  --pd-one: 1rem;
+  --border: 1px solid black;
+  --b-radius: 0.5rem;
+  --full-width: 100%;
+  --font-weight-500: 500;
+}
+
+.alert {
+  box-sizing: border-box;
+  padding: var(--pd-one);
+  border-radius: var(--b-radius);
+  border: 1px solid var(--border-color);
+  display: flex;
+  gap: 0.5rem;
+  width: var(--full-width);
+}
+
+.alert__msg {
+  color: var(--text-color);
+  font-weight: var(--font-weight-500);
+}
+
+.alert__icon {
+  font-size: var(--icon-font-size);
+}
+
+/* individual alert styles */
+
+.alert--error {
+  background-color: var(--error-bg);
+}
+
+.error--icon {
+  color: var(--error-icon-color);
+}
+
+.alert--warning {
+  background-color: var(--warning-bg);
+}
+
+.warning--icon {
+  color: var(--warning-icon-color);
+}
+
+.alert--info {
+  background-color: var(--info-bg);
+}
+
+.info--icon {
+  color: var(--info-icon-color);
+}
+
+.alert--success {
+  background-color: var(--success-bg);
+}
+
+.success--icon {
+  color: var(--success-icon-color);
+}
