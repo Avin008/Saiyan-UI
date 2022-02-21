@@ -1,6 +1,5 @@
-/* basic card styles */
-
 :root {
+  /* horizontal card */
   --horizontal-card-price-stricked-color: #9a9a9a;
   --horizontal-card-price-discount: #9a9a9a;
   --horizontal-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -10,7 +9,7 @@
   --color-gray: gray;
   --color-black: black;
   --color-white: white;
-  /* cart management end */
+  /* horizontal card end */
   /* wishlist vertical card  */
   --vertical-card-primary-color: purple;
   --vertical-card-secondary-color: #ff527b;
@@ -30,12 +29,14 @@
   /*  products vertical cards end*/
 }
 
+/* basic card */
+
 .basic-card {
   max-width: 21.875rem;
   background-color: var(--color-white);
   padding-bottom: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 1px 2px 2px gray;
+  box-shadow: 1px 2px 2px var(--color-gray);
 }
 
 .basic-card-body {
@@ -61,19 +62,21 @@
   font-weight: 400;
 }
 
-/* horizontal */
+/* basic card styles end */
+
+/* horizontal card styles */
 
 .saiyan-horizontal-card {
   display: flex;
   gap: 2rem;
-  width: 600px;
+  width: 37.5rem;
   box-shadow: var(--horizontal-card-shadow);
   border-radius: 0.6rem;
   background-color: var(--horizontal-card-bg);
 }
 
 .saiyan-horizontal-card .card__img__container {
-  width: 250px;
+  width: 15.625rem;
   display: flex;
   align-items: center;
 }
@@ -134,7 +137,9 @@
   color: var(--horizontal-card-price-discount);
 }
 
-/* vertical */
+/* horizontal card styles end */
+
+/* vertical card */
 
 .saiyan-vertical-card {
   width: max-content;
@@ -145,8 +150,8 @@
 }
 
 .saiyan-vertical-card .card__img {
-  width: 220px;
-  height: 280px;
+  width: 13.75rem;
+  height: 17.5rem;
   border-radius: 0.6rem;
 }
 
@@ -255,7 +260,9 @@
   font-weight: 600;
 }
 
-/* ratings */
+/* vertical card styles end */
+
+/* vertical card ratings */
 .saiyan-vertical-card .ratings {
   background-color: var(--ratings-bg);
   padding: 0.5rem;
@@ -273,15 +280,19 @@
   color: var(--ratings-icon-color);
 }
 
+/* vertical card ratings styles end */
+
+/* vertical card badge */
+
 .saiyan-vertical-card .card__badge {
   position: absolute;
   top: 16px;
   left: 180px;
 }
 
-/* card styles end */
+/* vertical card badge */
 
-/* overlay */
+/* overlay card styles */
 .card-overlay {
   position: relative;
   opacity: 0.7;
@@ -306,6 +317,10 @@
   font-weight: 500;
 }
 
+/* overlay card styles end */
+
+/* .card popularity badge */
+
 .card__popularity__badge__container {
   position: absolute;
   top: 1rem;
@@ -322,3 +337,5 @@
   font-size: 0.8rem;
   opacity: 0.9;
 }
+
+/* card popularity badge styles end */
