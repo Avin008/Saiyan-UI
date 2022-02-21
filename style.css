@@ -119,8 +119,6 @@ body {
   font-size: 1.2rem;
 }
 
-/* jumbotron end */
-
 /* sidebar */
 
 .grid-container {
@@ -175,8 +173,7 @@ body {
   color: var(--color-black);
   cursor: pointer;
 }
-
-/* main-content */
+/* component container */
 
 .component {
   padding: 0.5rem 2rem;
@@ -189,7 +186,7 @@ body {
   flex-direction: column;
 }
 
-/* span in section */
+/* span in component container */
 
 .span {
   font-weight: 700;
