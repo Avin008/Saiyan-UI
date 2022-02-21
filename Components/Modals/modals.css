@@ -1,10 +1,4 @@
-.root {
-  --color-gray: gray;
-  --color-white: white;
-  --color-black: black;
-}
-
-/* ||modal styles */
+/* modal styles */
 
 .modal {
   border: 1px solid var(--color-black);
@@ -20,7 +14,8 @@
   gap: 1rem;
 }
 
-.modal__CTA > * {
+.modal__primary--btn,
+.modal__secondary--btn {
   text-decoration: none;
   background-color: var(--color-gray);
   color: var(--color-white);
@@ -29,7 +24,7 @@
 }
 
 .modal__secondary--btn {
-  background-color: var(--color-primary);
+  background-color: var(--color-purple);
 }
 
 .modal__head {
@@ -42,5 +37,3 @@
 .modal__close {
   font-size: 1.4rem;
 }
-
-/* ||modal styles end */
