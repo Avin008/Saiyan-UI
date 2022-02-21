@@ -1,9 +1,16 @@
+/* responsive image styles */
 .img-responsive {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
+/* responsive image styles end */
+
+/* round image styles */
+
 .img-round {
   border-radius: 50%;
 }
+
+/* round image styles end */
