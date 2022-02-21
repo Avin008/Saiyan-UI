@@ -1,34 +1,3 @@
-:root {
-  /* horizontal card */
-  --horizontal-card-price-stricked-color: #9a9a9a;
-  --horizontal-card-price-discount: #9a9a9a;
-  --horizontal-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  --horizontal-card-bg: white;
-  --horizontal-card-CTA-border-color: black;
-  --checkout-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  --color-gray: gray;
-  --color-black: black;
-  --color-white: white;
-  /* horizontal card end */
-  /* wishlist vertical card  */
-  --vertical-card-primary-color: purple;
-  --vertical-card-secondary-color: #ff527b;
-  --vertical-card-discount-color: #ff905a;
-  --vertical-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* vertical card end */
-  /* products vertical cards */
-  --filer-bg: rgb(255, 255, 255);
-  --card-primary-color: purple;
-  --card-secondary-color: #ff527b;
-  --card-discount-color: #ff905a;
-  --badge-icon-color: #fb3958;
-  --color-white: white;
-  --color-black: black;
-  --ratings-bg: rgb(224, 202, 202);
-  --ratings-icon-color: green;
-  /*  products vertical cards end*/
-}
-
 /* basic card */
 
 .basic-card {
@@ -62,19 +31,19 @@
   font-weight: 400;
 }
 
-/* horizontal */
+/* horizontal card*/
 
 .saiyan-horizontal-card {
   display: flex;
   gap: 2rem;
-  width: 600px;
+  width: 37.5rem;
   box-shadow: var(--horizontal-card-shadow);
   border-radius: 0.6rem;
   background-color: var(--horizontal-card-bg);
 }
 
 .saiyan-horizontal-card .card__img__container {
-  width: 250px;
+  width: 15.625rem;
   display: flex;
   align-items: center;
 }
@@ -90,8 +59,8 @@
 }
 
 .saiyan-horizontal-card .card__quantity__box {
-  width: 30px;
-  height: 20px;
+  width: 1.875rem;
+  height: 1.25rem;
   border-radius: 0.5rem;
   border: none;
   outline: none;
@@ -116,7 +85,6 @@
 
 .saiyan-horizontal-card .card__CTA__btn {
   padding: 0.5rem 1rem;
-  /* border: 1px solid var(--horizontal-card-CTA-border-color); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,9 +111,7 @@
   color: var(--horizontal-card-price-discount);
 }
 
-/* horizontal card end */
-
-/* vertical */
+/* vertical card */
 
 .saiyan-vertical-card {
   width: max-content;
@@ -156,8 +122,8 @@
 }
 
 .saiyan-vertical-card .card__img {
-  width: 220px;
-  height: 280px;
+  width: 13.75rem;
+  height: 17.5rem;
   border-radius: 0.6rem;
 }
 
@@ -267,6 +233,7 @@
 }
 
 /* ratings */
+
 .saiyan-vertical-card .ratings {
   background-color: var(--ratings-bg);
   padding: 0.5rem;
@@ -284,15 +251,33 @@
   color: var(--ratings-icon-color);
 }
 
+/* card badge */
+
 .saiyan-vertical-card .card__badge {
   position: absolute;
-  top: 16px;
-  left: 180px;
+  top: 1rem;
+  left: 11.25rem;
 }
 
-/* card styles end */
+.card__popularity__badge__container {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
 
-/* overlay */
+.card__popularity__badge {
+  background-color: var(--badge-icon-color);
+  color: var(--color-white);
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+/* overlay card */
+
 .card-overlay {
   position: relative;
   opacity: 0.7;
@@ -315,21 +300,4 @@
   padding: 0.5rem;
   color: var(--color-white);
   font-weight: 500;
-}
-
-.card__popularity__badge__container {
-  position: absolute;
-  top: 1rem;
-  left: 0.5rem;
-}
-
-.card__popularity__badge {
-  background-color: var(--badge-icon-color);
-  color: var(--color-white);
-  padding: 0.4rem;
-  border-radius: 0.3rem;
-  box-sizing: border-box;
-  font-weight: 500;
-  font-size: 0.8rem;
-  opacity: 0.9;
 }
