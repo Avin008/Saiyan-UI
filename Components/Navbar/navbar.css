@@ -9,6 +9,7 @@ body {
 }
 
 :root {
+  --body-background-color: #f7f7f7;
   /* navbar */
   --navbar-background-color: #ffffff;
   --navbar-link-color: #58595b;
@@ -29,15 +30,12 @@ body {
   box-shadow: 0 4px 2px -2px var(--navbar-shadow-color);
 }
 
-/* class to fix navbar on top of the page */
-
-.fix-navbar {
+.navbar-fixed {
   position: fixed;
-  width: 100%;
+  width: 99%;
   top: 0;
   z-index: 100;
 }
-/* end */
 
 .saiyan-navbar .navbar__brand-container {
   display: flex;
