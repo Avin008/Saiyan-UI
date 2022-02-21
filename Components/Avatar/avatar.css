@@ -1,12 +1,7 @@
 /* common avatar styles */
 
-:root {
-  /* common styles utils */
-  --br-50: 50%;
-}
-
 .avatar {
-  border-radius: var(--br-50);
+  border-radius: 50%;
 }
 
 .avatar__img {
