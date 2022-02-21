@@ -1,5 +1,3 @@
-/* basic card styles */
-
 :root {
   /* horizontal card */
   --horizontal-card-price-stricked-color: #9a9a9a;
@@ -27,9 +25,11 @@
   --color-white: white;
   --color-black: black;
   --ratings-bg: rgb(224, 202, 202);
-  --ratings-icon-color: ;
+  --ratings-icon-color: green;
   /*  products vertical cards end*/
 }
+
+/* basic card */
 
 .basic-card {
   max-width: 21.875rem;
@@ -45,15 +45,15 @@
   flex-direction: column;
 }
 
-.basic-card-header>* {
+.basic-card-header > * {
   margin: 0.4rem 0;
 }
 
-.basic-card-header>.basic-card-title {
+.basic-card-header > .basic-card-title {
   margin-top: 1rem;
 }
 
-.basic-card-actions>.secondary-btn {
+.basic-card-actions > .secondary-btn {
   font-size: 1.4rem;
   color: var(--color-gray);
 }
