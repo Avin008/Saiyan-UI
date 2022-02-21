@@ -58,4 +58,12 @@
   --color-whitesmoke: whitesmoke;
   --error-msg-color: red;
   --success-msg-color: green;
+  --body-background-color: #f7f7f7;
+  --navbar-background-color: #ffffff;
+  --navbar-link-color: #58595b;
+  --navbar-brand-color: #585858;
+  --navbar-shadow-color: #00000033;
+  --icon-badge-bg: #f73b00;
+  --badge-bg-color: #585858;
+  --badge-text-color: #ffffff;
 }
