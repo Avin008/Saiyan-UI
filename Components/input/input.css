@@ -1,14 +1,6 @@
-:root {
-  --color-gray: gray;
-  --color-whitesmoke: whitesmoke;
-  --error-msg-color: red;
-  --success-msg-color: green;
-}
-
 /* form styles */
 
 .form {
-  font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -42,9 +34,13 @@
   font-weight: 500;
 }
 
+/* input error msg color */
+
 .error {
   color: var(--error-msg-color);
 }
+
+/* input success msg color */
 
 .success {
   color: var(--success-msg-color);
