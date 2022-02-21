@@ -28,4 +28,20 @@
   --ratings-star-color: #f59e0b;
   --stacked-list-hover-bg: #d3d3d3;
   --spaced-list-hover-bg: #d3d3d3;
+  --text-color: black;
+  --border-color: black;
+  --error-bg: #fdeded;
+  --warning-bg: #fff4e5;
+  --info-bg: #e5f6fd;
+  --success-bg: #edf7ed;
+  --error-icon-color: #f06360;
+  --warning-icon-color: #ffa624;
+  --info-icon-color: #34baf6;
+  --success-icon-color: #80c783;
+  --icon-font-size: 1.3rem;
+  --pd-one: 1rem;
+  --border: 1px solid black;
+  --b-radius: 0.5rem;
+  --full-width: 100%;
+  --font-weight-500: 500;
 }
