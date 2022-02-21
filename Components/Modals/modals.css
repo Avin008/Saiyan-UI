@@ -1,10 +1,18 @@
+.root {
+  --modal-secondary-btn-bg: #0069d9;
+  --color-gray: gray;
+  --color-white: white;
+  --color-black: black;
+}
+
+/* ||modal styles */
+
 .modal {
-  width: 300px;
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
   padding: 0.5rem;
   border-radius: 0.5rem;
-  width: 400px;
-  background-color: white;
+  width: 25rem;
+  background-color: var(--color-white);
 }
 
 .modal__CTA {
@@ -15,14 +23,14 @@
 
 .modal__CTA > * {
   text-decoration: none;
-  background-color: gray;
-  color: white;
+  background-color: var(--color-gray);
+  color: var(--color-white);
   padding: 0.8rem;
   border-radius: 0.5rem;
 }
 
 .modal__secondary--btn {
-  background-color: #0069d9;
+  background-color: var(--modal-secondary-btn-bg);
 }
 
 .modal__head {
@@ -35,3 +43,5 @@
 .modal__close {
   font-size: 1.4rem;
 }
+
+/* ||modal styles end */
