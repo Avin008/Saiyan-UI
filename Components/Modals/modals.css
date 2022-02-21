@@ -1,5 +1,5 @@
 .root {
-  --modal-secondary-btn-bg: #0069d9;
+  --modal-secondary-bg: purple;
   --color-gray: gray;
   --color-white: white;
   --color-black: black;
@@ -30,7 +30,7 @@
 }
 
 .modal__secondary--btn {
-  background-color: var(--modal-secondary-btn-bg);
+  background-color: var(--modal-secondary-bg);
 }
 
 .modal__head {
