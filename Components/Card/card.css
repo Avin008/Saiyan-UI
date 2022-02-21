@@ -1,3 +1,5 @@
+/* basic card styles */
+
 :root {
   /* horizontal card */
   --horizontal-card-price-stricked-color: #9a9a9a;
@@ -25,18 +27,16 @@
   --color-white: white;
   --color-black: black;
   --ratings-bg: rgb(224, 202, 202);
-  --ratings-icon-color: ;
+  --ratings-icon-color: green;
   /*  products vertical cards end*/
 }
-
-/* basic card */
 
 .basic-card {
   max-width: 21.875rem;
   background-color: var(--color-white);
   padding-bottom: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 1px 2px 2px var(--color-gray);
+  box-shadow: 1px 2px 2px gray;
 }
 
 .basic-card-body {
@@ -45,15 +45,15 @@
   flex-direction: column;
 }
 
-.basic-card-header > * {
+.basic-card-header>* {
   margin: 0.4rem 0;
 }
 
-.basic-card-header > .basic-card-title {
+.basic-card-header>.basic-card-title {
   margin-top: 1rem;
 }
 
-.basic-card-actions > .secondary-btn {
+.basic-card-actions>.secondary-btn {
   font-size: 1.4rem;
   color: var(--color-gray);
 }
@@ -62,21 +62,19 @@
   font-weight: 400;
 }
 
-/* basic card styles end */
-
-/* horizontal card styles */
+/* horizontal */
 
 .saiyan-horizontal-card {
   display: flex;
   gap: 2rem;
-  width: 37.5rem;
+  width: 600px;
   box-shadow: var(--horizontal-card-shadow);
   border-radius: 0.6rem;
   background-color: var(--horizontal-card-bg);
 }
 
 .saiyan-horizontal-card .card__img__container {
-  width: 15.625rem;
+  width: 250px;
   display: flex;
   align-items: center;
 }
@@ -118,13 +116,21 @@
 
 .saiyan-horizontal-card .card__CTA__btn {
   padding: 0.5rem 1rem;
-  border: 1px solid var(--horizontal-card-CTA-border-color);
+  /* border: 1px solid var(--horizontal-card-CTA-border-color); */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.6rem;
   text-decoration: none;
   font-weight: 600;
+  background-color: var(--card-primary-color);
+  color: var(--color-white);
+}
+
+.saiyan-horizontal-card .card__CTA__btn--secondary {
+  background-color: transparent;
+  color: var(--card-primary-color);
+  border: 1px solid var(--card-primary-color);
 }
 
 .saiyan-horizontal-card .card__price__stricked {
@@ -137,9 +143,9 @@
   color: var(--horizontal-card-price-discount);
 }
 
-/* horizontal card styles end */
+/* horizontal card end */
 
-/* vertical card */
+/* vertical */
 
 .saiyan-vertical-card {
   width: max-content;
@@ -150,8 +156,8 @@
 }
 
 .saiyan-vertical-card .card__img {
-  width: 13.75rem;
-  height: 17.5rem;
+  width: 220px;
+  height: 280px;
   border-radius: 0.6rem;
 }
 
@@ -260,9 +266,7 @@
   font-weight: 600;
 }
 
-/* vertical card styles end */
-
-/* vertical card ratings */
+/* ratings */
 .saiyan-vertical-card .ratings {
   background-color: var(--ratings-bg);
   padding: 0.5rem;
@@ -280,19 +284,15 @@
   color: var(--ratings-icon-color);
 }
 
-/* vertical card ratings styles end */
-
-/* vertical card badge */
-
 .saiyan-vertical-card .card__badge {
   position: absolute;
   top: 16px;
   left: 180px;
 }
 
-/* vertical card badge */
+/* card styles end */
 
-/* overlay card styles */
+/* overlay */
 .card-overlay {
   position: relative;
   opacity: 0.7;
@@ -317,10 +317,6 @@
   font-weight: 500;
 }
 
-/* overlay card styles end */
-
-/* .card popularity badge */
-
 .card__popularity__badge__container {
   position: absolute;
   top: 1rem;
@@ -337,5 +333,3 @@
   font-size: 0.8rem;
   opacity: 0.9;
 }
-
-/* card popularity badge styles end */
