@@ -25,13 +25,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   padding: 1rem;
-  /* position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100; */
   background-color: var(--navbar-background-color);
   box-shadow: 0 4px 2px -2px var(--navbar-shadow-color);
 }
+
+/* class to fix navbar on top of the page */
+
+.fix-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+/* end */
 
 .saiyan-navbar .navbar__brand-container {
   display: flex;
