@@ -5,11 +5,17 @@
   --spaced-list-hover-bg: #d3d3d3;
 }
 
+/* common styles for ordered && unordered list */
+
 .ordered-list,
 .unordered-list {
   padding: 1rem;
   font-weight: 500;
 }
+
+/* common styles for ordered && unordered list end */
+
+/* common styles for stacked && spaced list */
 
 .stacked--list,
 .spaced--list {
@@ -21,6 +27,8 @@
   overflow: hidden;
   background-color: var(--color-white);
 }
+
+/* common styles for stacked && spaced list end */
 
 .stacked--list > .list-items {
   padding: 1rem;
