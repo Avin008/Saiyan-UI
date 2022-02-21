@@ -5,19 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="ratings.css" />
+    <link rel="stylesheet" href="./ratings.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="ratings">
-        <span class="ratings-star">
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star white"></i>
-          <i class="fa-solid fa-star white"></i>
-        </span>
+    <section class="component" id="ratings">
+      <h1 class="component__name">Ratings</h1>
+      <p class="component__description">
+        To use ratings use .ratings class names in your container.
+      </p>
+
+      <h1 class="component__example">Examples</h1>
+      <div class="component__example-container example-ratings">
+        <div class="ratings">
+          <span class="ratings-star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star off"></i>
+            <i class="fa-solid fa-star off"></i>
+          </span>
+        </div>
       </div>
-    </div>
+      <div class="component__iframe">
+        <iframe
+          src="https://www.thiscodeworks.com/embed/6206bf303d90130015398b9a"
+          style="width: 100%; height: 203px"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
   </body>
 </html>
