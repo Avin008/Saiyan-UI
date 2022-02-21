@@ -52,4 +52,7 @@
   --badge-text-color: #ffffff;
   --avatar-badge-bg: rgb(190, 84, 102);
   --color-green: green;
+  --btn-primary-color: #ff527b;
+  --btn-text-color: white;
+  --float-btn-shadow: 2px 2px 3px gray;
 }
