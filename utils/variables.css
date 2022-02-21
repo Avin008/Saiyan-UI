@@ -55,4 +55,7 @@
   --btn-primary-color: #ff527b;
   --btn-text-color: white;
   --float-btn-shadow: 2px 2px 3px gray;
+  --color-whitesmoke: whitesmoke;
+  --error-msg-color: red;
+  --success-msg-color: green;
 }
