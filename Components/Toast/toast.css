@@ -4,6 +4,8 @@
   --toast-hover-bg-color: #3e65fb;
 }
 
+/* toast styles */
+
 .toast-primary {
   background-color: var(--toast-bg-color);
   padding: 1rem;
@@ -30,3 +32,5 @@
 .toast-close {
   cursor: pointer;
 }
+
+/* toast styles end */
