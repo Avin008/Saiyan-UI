@@ -3,6 +3,8 @@
   --color-gray: gray;
 }
 
+/* ratings styles */
+
 .ratings {
   padding: 1rem;
   border-radius: 0.5rem;
@@ -15,3 +17,5 @@
 .off {
   color: var(--color-gray);
 }
+
+/* ratings styles end */
