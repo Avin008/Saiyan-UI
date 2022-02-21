@@ -17,8 +17,8 @@
 
 /* common styles for stacked && spaced list */
 
-.stacked--list,
-.spaced--list {
+.stacked-list,
+.spaced-list {
   border: 1px solid var(--color-black);
   padding: 0;
   margin: 0;
@@ -30,25 +30,25 @@
 
 /* common styles for stacked && spaced list end */
 
-.stacked--list > .list-items {
+.stacked-list > .list-items {
   padding: 1rem;
   font-weight: 500;
 }
 
-.stacked--list > .list-items:hover {
+.stacked-list > .list-items:hover {
   background-color: var(--stacked-list-hover-bg);
 }
 
-.spaced--list > .list-items:hover {
+.spaced-list > .list-items:hover {
   background-color: var(--spaced-list-hover-bg);
 }
 
-.spaced--list > .list-items {
+.spaced-list > .list-items {
   padding: 1rem;
   font-weight: 500;
 }
 
-.spaced--list {
+.spaced-list {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
