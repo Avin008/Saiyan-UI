@@ -1,12 +1,17 @@
+:root {
+  --ratings-star-color: #f59e0b;
+  --color-gray: gray;
+}
+
 .ratings {
   padding: 1rem;
   border-radius: 0.5rem;
 }
 
 .ratings-star {
-  color: #f59e0b;
+  color: var(--ratings-star-color);
 }
 
 .off {
-  color: gray;
+  color: var(--color-gray);
 }
