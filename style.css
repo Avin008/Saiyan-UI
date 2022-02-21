@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url(/utils/variables.css);
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Alert/alerts.css");
 @import url("/Components/Badge/badge.css");
@@ -12,17 +13,6 @@
 @import url("/Components/Modals/modals.css");
 @import url("/Components/image/image.css");
 @import url("/Components/Navbar/navbar.css");
-
-:root {
-  --primary-color: #7952b3;
-  --secondary-color: #6c757d;
-  --background-color: whitesmoke;
-  --color-white: white;
-  --color-black: black;
-  --color-gray: gray;
-  --sidebar-hover-bg: rgb(247, 238, 238);
-  --example-container-bg: rgb(243, 236, 236);
-}
 
 body {
   font-family: "Montserrat", sans-serif;

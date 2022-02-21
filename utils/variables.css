@@ -1,0 +1,32 @@
+:root {
+  --horizontal-card-price-stricked-color: #9a9a9a;
+  --horizontal-card-price-discount: #9a9a9a;
+  --horizontal-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --horizontal-card-bg: white;
+  --horizontal-card-CTA-border-color: black;
+  --checkout-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --color-gray: gray;
+  --color-black: black;
+  --color-white: white;
+  --vertical-card-primary-color: purple;
+  --vertical-card-secondary-color: #ff527b;
+  --vertical-card-discount-color: #ff905a;
+  --vertical-card-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --filer-bg: rgb(255, 255, 255);
+  --card-primary-color: purple;
+  --card-secondary-color: #ff527b;
+  --card-discount-color: #ff905a;
+  --badge-icon-color: #fb3958;
+  --color-white: white;
+  --color-black: black;
+  --ratings-bg: rgb(224, 202, 202);
+  --ratings-icon-color: green;
+  --primary-color: #7952b3;
+  --secondary-color: #6c757d;
+  --background-color: whitesmoke;
+  --color-white: white;
+  --color-black: black;
+  --color-gray: gray;
+  --sidebar-hover-bg: rgb(247, 238, 238);
+  --example-container-bg: rgb(243, 236, 236);
+}
