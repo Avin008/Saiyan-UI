@@ -1,3 +1,10 @@
+:root {
+  --color-black: black;
+  --color-white: white;
+  --stacked-list-hover-bg: #d3d3d3;
+  --spaced-list-hover-bg: #d3d3d3;
+}
+
 .ordered-list,
 .unordered-list {
   padding: 1rem;
@@ -6,13 +13,13 @@
 
 .stacked--list,
 .spaced--list {
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
   padding: 0;
   margin: 0;
-  width: 200px;
+  width: 12.5rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .stacked--list > .list-items {
@@ -21,11 +28,11 @@
 }
 
 .stacked--list > .list-items:hover {
-  background-color: #d3d3d3;
+  background-color: var(--stacked-list-hover-bg);
 }
 
 .spaced--list > .list-items:hover {
-  background-color: #d3d3d3;
+  background-color: var(--spaced-list-hover-bg);
 }
 
 .spaced--list > .list-items {
