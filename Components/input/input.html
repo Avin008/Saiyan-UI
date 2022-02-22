@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <section class="component" id="input">
+      <h1 class="component__name">Input</h1>
+      <p class="component__description">
+        Inputs are the most important part of a form element to take user
+        imformation.
+      </p>
+
+      <h2>Input labels</h2>
+
+      <h1 class="component__example">Examples</h1>
+      <div class="component__example-container example-input">
+        <form class="form" action="#">
+          <div class="input-group">
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <label for="password">Enter your password</label>
+            <input type="password" name="email" placeholder="Password" />
+          </div>
+        </form>
+      </div>
+      <div class="component__iframe">
+        <iframe
+          src="https://www.thiscodeworks.com/embed/62060e5da4f5770015a88527"
+          style="width: 100%; height: 229px"
+          frameborder="0"
+        ></iframe>
+      </div>
+
+      <h2>Input with Validation</h2>
+      <p>
+        Input validation provides confirmation feedback message to the user.
+      </p>
+
+      <h1 class="component__example">Examples</h1>
+      <div class="component__example-container example-input" id="input">
+        <form class="form" action="#">
+          <div class="input-group">
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" placeholder="Email" />
+            <div class="input-feedback success">Valid email address!</div>
+          </div>
+
+          <div class="input-group">
+            <label for="password">Enter your password</label>
+            <input type="password" name="email" placeholder="Password" />
+            <div class="input-feedback success">password accepted</div>
+          </div>
+        </form>
+      </div>
+      <div class="component__iframe">
+        <iframe
+          src="https://www.thiscodeworks.com/embed/62060eb2a4f5770015a88528"
+          style="width: 100%; height: 268px"
+          frameborder="0"
+        ></iframe>
+      </div>
+
+      <h2>Input with error style</h2>
+      <p>Input Error provides rejection feedback message to the user.</p>
+
+      <h1 class="component__example">Examples</h1>
+      <div class="component__example-container example-input">
+        <form class="form" action="#">
+          <div class="input-group">
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" placeholder="Email" />
+            <div class="input-feedback error">Invalid email address!</div>
+          </div>
+
+          <div class="input-group">
+            <label for="password">Enter your password</label>
+            <input type="password" name="email" placeholder="Password" />
+            <div class="input-feedback error">incorrect password</div>
+          </div>
+        </form>
+      </div>
+      <div class="component__iframe">
+        <iframe
+          src="https://www.thiscodeworks.com/embed/62060efda4f5770015a88529"
+          style="width: 100%; height: 255px"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
+  </body>
+</html>

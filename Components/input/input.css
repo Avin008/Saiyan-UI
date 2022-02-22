@@ -1,0 +1,49 @@
+/* form styles */
+
+.form {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  border: 1px solid var(--color-gray);
+  padding: 1rem;
+  gap: 0.8rem;
+  background-color: var(--color-whitesmoke);
+  border-radius: 0.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.input-group > input {
+  padding: 0.5rem;
+}
+
+.input-group > label {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.form-group > input:placeholder-shown {
+  font-size: 1rem;
+}
+
+.input-feedback {
+  font-weight: 500;
+}
+
+/* input error msg color */
+
+.error {
+  color: var(--error-msg-color);
+}
+
+/* input success msg color */
+
+.success {
+  color: var(--success-msg-color);
+}
+
+/* form styles end */
