@@ -1,0 +1,38 @@
+/* common avatar styles */
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar__img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+/* end common avatar styles */
+
+.avatar--xl {
+  height: 8rem;
+  width: 8rem;
+}
+
+.avatar--lg {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar--md {
+  height: 4rem;
+  width: 4rem;
+}
+
+.avatar--sm {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar--xs {
+  width: 2rem;
+  height: 2rem;
+}
