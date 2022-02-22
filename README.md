@@ -49,9 +49,8 @@ Buttons can be used to make your web page interactive to your user. You can use 
 You will find the following types of *Button* on 
 
 - Primary Buttons
-- Outlined Primary Buttons
-- Link Button
 - Icon Button
+- Link Button
 - Floating Button
 
 ---
@@ -77,7 +76,6 @@ Image can be used to display large picture on the website.
 You will find the following types of *Image* on 
 
 - Round Image
-- Square Image
 - Responsive Image
 
 ---
@@ -119,37 +117,19 @@ You will find Navigation on
 
 ### Modals
 
-List can be used to add differant type of lists in your projects.
-
-You will find differant types of lists on 
-
-- default list
-- Simple spaced list
-- stacked list
+Modals are pop up messages, displayed on the top of the screen.
 
 ---
 
 
 ### Toast
 
-List can be used to add differant type of lists in your projects.
-
-You will find differant types of lists on 
-
-- default list
-- Simple spaced list
-- stacked list
+Toast is a message that appears on bottom of the page.
 
 ---
 
 ### Ratings
 
-List can be used to add differant type of lists in your projects.
-
-You will find differant types of lists on 
-
-- default list
-- Simple spaced list
-- stacked list
+Rating is used in website to rate something like products or experience.
 
 ---
