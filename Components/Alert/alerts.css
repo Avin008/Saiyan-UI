@@ -1,0 +1,54 @@
+/* alert common styles */
+
+.alert {
+  box-sizing: border-box;
+  padding: var(--pd-one);
+  border-radius: var(--b-radius);
+  border: 1px solid var(--border-color);
+  display: flex;
+  gap: 0.5rem;
+  width: var(--full-width);
+}
+
+.alert__msg {
+  color: var(--text-color);
+  font-weight: var(--font-weight-500);
+}
+
+.alert__icon {
+  font-size: var(--icon-font-size);
+}
+
+/* individual alert styles */
+
+.alert--error {
+  background-color: var(--error-bg);
+}
+
+.error--icon {
+  color: var(--error-icon-color);
+}
+
+.alert--warning {
+  background-color: var(--warning-bg);
+}
+
+.warning--icon {
+  color: var(--warning-icon-color);
+}
+
+.alert--info {
+  background-color: var(--info-bg);
+}
+
+.info--icon {
+  color: var(--info-icon-color);
+}
+
+.alert--success {
+  background-color: var(--success-bg);
+}
+
+.success--icon {
+  color: var(--success-icon-color);
+}
