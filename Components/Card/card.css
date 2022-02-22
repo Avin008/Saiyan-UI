@@ -1,0 +1,303 @@
+/* basic card */
+
+.basic-card {
+  max-width: 21.875rem;
+  background-color: var(--color-white);
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 2px var(--color-gray);
+}
+
+.basic-card-body {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-card-header > * {
+  margin: 0.4rem 0;
+}
+
+.basic-card-header > .basic-card-title {
+  margin-top: 1rem;
+}
+
+.basic-card-actions > .secondary-btn {
+  font-size: 1.4rem;
+  color: var(--color-gray);
+}
+
+.basic-card-intro {
+  font-weight: 400;
+}
+
+/* horizontal card*/
+
+.saiyan-horizontal-card {
+  display: flex;
+  gap: 2rem;
+  width: 37.5rem;
+  box-shadow: var(--horizontal-card-shadow);
+  border-radius: 0.6rem;
+  background-color: var(--horizontal-card-bg);
+}
+
+.saiyan-horizontal-card .card__img__container {
+  width: 15.625rem;
+  display: flex;
+  align-items: center;
+}
+
+.saiyan-horizontal-card .card__img {
+  width: 100%;
+}
+
+.saiyan-horizontal-card .card__quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.saiyan-horizontal-card .card__quantity__box {
+  width: 1.875rem;
+  height: 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid var(--color-gray);
+  text-align: center;
+}
+
+.saiyan-horizontal-card .card__quantity__btn {
+  border: none;
+  border: 1px solid var(--color-gray);
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.saiyan-horizontal-card .card__CTA__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.saiyan-horizontal-card .card__CTA__btn {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: var(--card-primary-color);
+  color: var(--color-white);
+}
+
+.saiyan-horizontal-card .card__CTA__btn--secondary {
+  background-color: transparent;
+  color: var(--card-primary-color);
+  border: 1px solid var(--card-primary-color);
+}
+
+.saiyan-horizontal-card .card__price__stricked {
+  color: var(--horizontal-card-price-stricked-color);
+  text-decoration: line-through;
+  font-size: 1.5rem;
+}
+
+.saiyan-horizontal-card .card__price__discount {
+  color: var(--horizontal-card-price-discount);
+}
+
+/* vertical card */
+
+.saiyan-vertical-card {
+  width: max-content;
+  height: fit-content;
+  border-radius: 0.6rem;
+  box-shadow: var(--vertical-card-shadow);
+  position: relative;
+}
+
+.saiyan-vertical-card .card__img {
+  width: 13.75rem;
+  height: 17.5rem;
+  border-radius: 0.6rem;
+}
+
+.saiyan-vertical-card .card__heading {
+  color: var(--color-black);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+
+.saiyan-vertical-card .card__subtext {
+  color: var(--color-black);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.saiyan-vertical-card .card__body {
+  padding: 1rem;
+}
+
+.saiyan-vertical-card .card__price__container {
+  margin: 0.4rem 0;
+}
+
+.saiyan-vertical-card .card__price {
+  color: var(--color-black);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.saiyan-vertical-card .card__price__stricked {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.saiyan-vertical-card .card__price__discount {
+  color: var(--card-discount-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.saiyan-vertical-card .card__actions {
+  margin: 1.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.saiyan-vertical-card .card__btn {
+  background-color: var(--vertical-card-primary-color);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+}
+
+.saiyan-vertical-card .card__close__btn__container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.saiyan-vertical-card .card__close__btn {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.saiyan-vertical-card .card__btn {
+  background-color: var(--card-primary-color);
+  color: var(--color-white);
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+}
+
+.saiyan-vertical-card .card__btn__secondary {
+  background-color: var(--card-secondary-color);
+  color: var(--color-white);
+  border: 1px solid var(--card-secondary-color);
+}
+
+.saiyan-vertical-card .card__badge__icon {
+  font-size: 2rem;
+  position: relative;
+  color: var(--badge-icon-color);
+}
+
+.saiyan-vertical-card .card__badge__icon-badge {
+  background-color: var(--icon-badge-bg);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 2px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -15px;
+  top: -10px;
+  color: var(--badge-text-color);
+  font-weight: 600;
+}
+
+/* ratings */
+
+.saiyan-vertical-card .ratings {
+  background-color: var(--ratings-bg);
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-black);
+  width: fit-content;
+  position: absolute;
+  top: 15rem;
+  left: 1.5rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+.saiyan-vertical-card .ratings__icon {
+  color: var(--ratings-icon-color);
+}
+
+/* card badge */
+
+.saiyan-vertical-card .card__badge {
+  position: absolute;
+  top: 1rem;
+  left: 11.25rem;
+}
+
+.card__popularity__badge__container {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+
+.card__popularity__badge {
+  background-color: var(--badge-icon-color);
+  color: var(--color-white);
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+/* overlay card */
+
+.card-overlay {
+  position: relative;
+  opacity: 0.7;
+}
+
+.card-overlay .card-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.card-overlay .card-overlay-text-bg {
+  background-color: var(--color-gray);
+  padding: 0.5rem;
+  color: var(--color-white);
+  font-weight: 500;
+}
