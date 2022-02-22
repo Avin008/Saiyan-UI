@@ -159,7 +159,6 @@ body {
   justify-content: space-between;
   padding-inline-start: 0;
   height: 25rem;
-  overflow-y: scroll;
 }
 
 .sidebar__links {
