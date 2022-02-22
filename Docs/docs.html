@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation | Saiyan-UI</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar__brand" href="#">Saiyan-UI</a>
+
+      <div class="navbar__container">
+        <ul class="navbar__list">
+          <li class="navbar__items">
+            <a class="navbar__links" href="/index.html">Home</a>
+          </li>
+          <li class="navbar__items">
+            <a class="navbar__links" href="/Docs/docs.html">Documentation</a>
+          </li>
+          <li class="navbar__items">
+            <a
+              class="navbar__links navbar--icons"
+              class=""
+              href="https://twitter.com/AvinashMahanan1"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li class="navbar__items">
+            <a
+              class="navbar__links navbar--icons"
+              class=""
+              href="https://github.com/Avin008/Saiyan-UI"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container grid-container">
+      <nav class="sidebar">
+        <h2 class="sidebar__heading">Components</h2>
+
+        <ul class="sidebar__list">
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#avatar">Avatar</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#alert">Alert</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#badge">Badge</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#button">Button</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#card">Card</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#image">Image</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#input">Input</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#list">Lists</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#navbar">Navigation</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#toast">Toast</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#ratings">Ratings</a>
+          </li>
+          <li class="sidebar__items">
+            <a class="sidebar__links" href="#modals">Modals</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="main">
+        <section class="component" id="avatar">
+          <h1 class="component__name">Avatars</h1>
+          <p class="component__description">
+            An avatar is the face of user's profile. It is the user profile
+            picture. It is a small image consisting of user's face generally to
+            give user's content a visual identity.
+          </p>
+
+          <h2>Avatar Sizes</h2>
+          <p>
+            Aatar is available in 5 different sizes Extra large, Large, Medium,
+            small and Extra small
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-avatar">
+            <div class="img-container">
+              <img
+                class="avatar avatar--xl"
+                src="https://i.pravatar.cc/300
+                "
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar--lg"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar--md"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar--sm"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+
+              <img
+                class="avatar avatar--xs"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6206041ba4f5770015a8850b"
+              style="width: 100%; height: 268px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="alert">
+          <h1 class="component__name">Alert</h1>
+          <p class="component__description">
+            An alert is a short message that only pops up when some information
+            is needed to be pass on to a user on a certain action.
+          </p>
+
+          <h2>Default Alerts</h2>
+          <p>
+            Default alerts are simple alerts with background colors that
+            indicates their purpose.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-alert">
+            <div class="alert alert--error">
+              <span class="alert__msg msg--error">This is a error message</span>
+            </div>
+
+            <div class="alert alert--warning">
+              <span class="alert__msg msg--alert"
+                >This is a warning message</span
+              >
+            </div>
+
+            <div class="alert alert--info">
+              <span class="alert__msg msg--info">This is a info message</span>
+            </div>
+
+            <div class="alert alert--success">
+              <span class="alert__msg msg--success"
+                >This is a success message</span
+              >
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620604cba4f5770015a8850d"
+              style="width: 100%; height: 281px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Icon Alerts</h2>
+          <p>Icons alerts displays icons with the message.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-alert">
+            <div class="alert alert--error">
+              <i class="alert__icon error--icon fas fa-exclamation-circle"></i>
+              <span class="alert__msg msg--error">This is a error message</span>
+            </div>
+
+            <div class="alert alert--warning">
+              <i
+                class="alert__icon warning--icon fas fa-exclamation-triangle"
+              ></i>
+              <span class="alert__msg msg--alert"
+                >This is a warning message</span
+              >
+            </div>
+
+            <div class="alert alert--info">
+              <i class="alert__icon info--icon fas fa-info-circle"></i>
+              <span class="alert__msg msg--info">This is a info message</span>
+            </div>
+
+            <div class="alert alert--success">
+              <i class="alert__icon success--icon far fa-check-circle"></i>
+              <span class="alert__msg msg--success"
+                >This is a success message</span
+              >
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6202781b234b8a0015700b9a"
+              style="width: 100%; height: 333px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="badge">
+          <h1 class="component__name">Badge</h1>
+          <p class="component__description">
+            Badges are small circles with numbers or some activity status
+            positioned on the top-right or bottom-right corners.
+          </p>
+
+          <h2>Profile Badge</h2>
+          <p>These are used to show the activity status generally.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-badge">
+            <div class="avatar avatar--md">
+              <img
+                class="avatar__img"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+              <span class="avatar-badge badge--md"></span>
+            </div>
+
+            <div class="avatar avatar--md">
+              <img
+                class="avatar__img"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+              <span class="avatar-badge badge--md"></span>
+            </div>
+
+            <div class="avatar avatar--md">
+              <img
+                class="avatar__img"
+                src="https://i.pravatar.cc/300
+                  "
+                alt="avatar"
+              />
+              <span class="avatar-badge badge--md"></span>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620605a5a4f5770015a8850f"
+              style="width: 100%; height: 307px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Icon Badge</h2>
+          <p>
+            Icon Badges are used to tell the user the number of items present.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-badge">
+            <div class="icon-badge">
+              <span class="badge__icon"
+                ><i class="fas fa-shopping-cart"></i
+                ><span class="badge__icon-badge">3</span></span
+              >
+            </div>
+
+            <div class="icon-badge">
+              <span class="badge__icon"
+                ><i class="fas fa-bell"></i
+                ><span class="badge__icon-badge">2</span></span
+              >
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620605fda4f5770015a88510"
+              style="width: 100%; height: 177px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="button">
+          <h1 class="component__name">Button</h1>
+          <p class="component__description">
+            Buttons are the most common and most important part of a web app
+            that allows you to navigate from one page to another, perform
+            certain actions etc.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-button">
+            <a href="#" class="btn btn--primary">Primary-Solid</a>
+            <a href="#" class="btn btn--primary btn-icon"
+              ><span class="btn__icon"
+                ><i class="fa-solid fa-cart-arrow-down"></i
+              ></span>
+              Add to Cart</a
+            >
+
+            <a href="#" class="btn btn-float">+ </a>
+            <a href="#" class="btn btn-link">Primary Link</a>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6206081ea4f5770015a88514"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="card">
+          <h1 class="component__name">Card</h1>
+          <p class="component__description">
+            Cards are pre-built containers that provides a short and crisp
+            information to the user through text, images, links, and buttons
+          </p>
+
+          <h2>Text Only Card</h2>
+          <p>These cards are text only with a header and a text.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-card">
+            <div class="basic-card">
+              <div class="basic-card-body">
+                <div class="basic-card-header">
+                  <h3 class="basic-card-title">Our Changing Planet</h3>
+                  <h5 class="basic-card-author">by Kurt Wagner</h5>
+                </div>
+                <div class="basic-card-intro">
+                  <p>
+                    Visit ten places on our planet that are undergoing the
+                    biggest changes today.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060964a4f5770015a88518"
+              style="width: 100%; height: 268px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Horizontal Card</h2>
+          <p>These cards are horizontal</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-card">
+            <div class="horizontal-container">
+              <!-- horizontal card -->
+
+              <div class="saiyan-horizontal-card">
+                <div class="card__img__container">
+                  <img
+                    class="card__img"
+                    src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16847642/2022/1/17/aa0a749a-626d-417a-bb24-fadaf529d5371642413360328BushirtAnimeT-Shirts1.jpg"
+                    alt="cart-img"
+                  />
+                </div>
+
+                <div class="saiyan-horizontal-card__body">
+                  <h3>Men Premium Tshirt</h3>
+                  <h1 class="card__price">
+                    Rs. 799
+                    <span class="card__price__stricked">Rs.1599</span>
+                  </h1>
+                  <h2 class="card__price__discount">50% off</h2>
+
+                  <div class="card__quantity">
+                    <span>Quantity:</span>
+                    <span
+                      ><button
+                        class="card__quantity__btn card__quantity__btn--minus"
+                      >
+                        -
+                      </button>
+                      <input
+                        class="card__quantity__box"
+                        type="text"
+                        name=""
+                        id=""
+                        value="2"
+                        readonly
+                      />
+                      <button
+                        class="card__quantity__btn card__quantity__btn--plus"
+                      >
+                        +
+                      </button></span
+                    >
+                  </div>
+
+                  <div class="card__CTA__container">
+                    <a class="card__CTA__btn card__CTA__btn--primary" href="#"
+                      >Remove From Cart</a
+                    >
+                    <a class="card__CTA__btn card__CTA__btn--secondary" href="#"
+                      >Move to Wishlist</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- horizontal card end -->
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060aa1a4f5770015a8851d"
+              style="width: 100%; height: 801px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Vertical Card</h2>
+          <p>
+            Vertical Card, Vertical Card with Badges, Vertical Card with Close
+            Button
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-card">
+            <div class="vertical__container">
+              <div class="saiyan-vertical-card">
+                <img
+                  class="card__img"
+                  src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10807752/2019/11/1/343806dd-9194-4142-a930-060b851c8b551572588206480-PRINTOCTOPUS-Men-Tshirts-1101572588204523-1.jpg"
+                  alt="image"
+                />
+
+                <div class="card__body">
+                  <h3 class="card__heading">Free Authority</h3>
+                  <h4 class="card__subtext">Dragon Ball Z</h4>
+                  <div class="card__price__container">
+                    <span class="card__price">Rs. 599</span>
+                    <span class="card__price__stricked">Rs. 1499</span>
+                    <span class="card__price__discount">(60% OFF)</span>
+                  </div>
+                  <div class="card__actions">
+                    <a class="card__btn card__btn__secondary" href="#"
+                      ><i class="fa-solid fa-cart-arrow-down"></i> Add to
+                      Cart</a
+                    >
+
+                    <div class="card__like__btn">
+                      <div class="card__badge card__icon__badge">
+                        <span class="card__badge__icon"
+                          ><i class="fa-regular fa-heart"></i
+                        ></span>
+                      </div>
+
+                      <div class="ratings">
+                        <span
+                          >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                          1.1k</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="saiyan-vertical-card">
+                <img
+                  class="card__img"
+                  src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10807752/2019/11/1/343806dd-9194-4142-a930-060b851c8b551572588206480-PRINTOCTOPUS-Men-Tshirts-1101572588204523-1.jpg"
+                  alt="image"
+                />
+
+                <div class="card__body">
+                  <h3 class="card__heading">Free Authority</h3>
+                  <h4 class="card__subtext">Dragon Ball Z</h4>
+                  <div class="card__price__container">
+                    <span class="card__price">Rs. 599</span>
+                    <span class="card__price__stricked">Rs. 1499</span>
+                    <span class="card__price__discount">(60% OFF)</span>
+                  </div>
+                  <div class="card__actions">
+                    <a class="card__btn card__btn--primary" href="#"
+                      ><i class="fa-solid fa-cart-arrow-down"></i> Go to Cart</a
+                    >
+
+                    <div class="card__like__btn">
+                      <div class="card__badge card__icon__badge">
+                        <span class="card__badge__icon"
+                          ><i class="fa-solid fa-heart"></i
+                        ></span>
+                      </div>
+
+                      <div class="ratings">
+                        <span
+                          >4.3 <i class="fa-solid fa-star ratings__icon"></i> |
+                          1.1k</span
+                        >
+                      </div>
+
+                      <div class="card__popularity__badge__container">
+                        <span class="card__popularity__badge">New Season</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="saiyan-vertical-card">
+                <img
+                  class="card__img"
+                  src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10807752/2019/11/1/343806dd-9194-4142-a930-060b851c8b551572588206480-PRINTOCTOPUS-Men-Tshirts-1101572588204523-1.jpg"
+                  alt="image"
+                />
+
+                <div class="card__body">
+                  <h3 class="card__heading">Free Authority</h3>
+                  <h4 class="card__subtext">Dragon Ball Z</h4>
+                  <div class="card__price__container">
+                    <span class="card__price">Rs. 599</span>
+                    <span class="card__price__stricked">Rs. 1499</span>
+                    <span class="card__price__discount">(60% OFF)</span>
+                  </div>
+                  <div class="card__actions">
+                    <a class="card__btn card__btn--primary" href="#"
+                      ><i class="fa-solid fa-cart-arrow-down"></i> Move to
+                      Cart</a
+                    >
+
+                    <div class="card__close__btn__container">
+                      <span class="card__close__btn"
+                        ><i class="fa-solid fa-xmark"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060c18a4f5770015a88522"
+              style="width: 100%; height: 1022px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Text Overlay Card</h2>
+          <p>Vetical Card with Text Overlay</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-card">
+            <div class="saiyan-vertical-card card-overlay">
+              <img
+                class="card__img"
+                src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10807752/2019/11/1/343806dd-9194-4142-a930-060b851c8b551572588206480-PRINTOCTOPUS-Men-Tshirts-1101572588204523-1.jpg"
+                alt="image"
+              />
+
+              <div class="card__body">
+                <h3 class="card__heading">Free Authority</h3>
+                <h4 class="card__subtext">Dragon Ball Z</h4>
+                <div class="card__price__container">
+                  <span class="card__price">Rs. 599</span>
+                  <span class="card__price__stricked">Rs. 1499</span>
+                  <span class="card__price__discount">(60% OFF)</span>
+                </div>
+                <div class="card__actions">
+                  <a class="card__btn card__btn__secondary" href="#"
+                    ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</a
+                  >
+
+                  <div class="card__like__btn">
+                    <div class="card__badge card__icon__badge">
+                      <span class="card__badge__icon"
+                        ><i class="fa-regular fa-heart"></i
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-overlay-text">
+                  <div class="card-overlay-text-bg">Out of Stock</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060ca4a4f5770015a88524"
+              style="width: 100%; height: 424px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="image">
+          <h1 class="component__name">Image</h1>
+          <p class="component__description">
+            Types of images. Responsive and round
+          </p>
+
+          <h2>Responsive Image</h2>
+          <p>
+            Use img-responsive class to make your images fit in the parent
+            element
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-image">
+            <div class="image-container">
+              <img
+                class="img-responsive"
+                src="https://picsum.photos/400/400"
+                alt="img"
+              />
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060d34a4f5770015a88525"
+              style="width: 100%; height: 99px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>round Image</h2>
+          <p>Use img-round class to make your images circular.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-image">
+            <div class="image-container">
+              <img
+                class="img-responsive img-round"
+                src="https://picsum.photos/400/400"
+                alt="img"
+              />
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060d93a4f5770015a88526"
+              style="width: 100%; height: 99px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="input">
+          <h1 class="component__name">Input</h1>
+          <p class="component__description">
+            Inputs are the most important part of a form element to take user
+            imformation.
+          </p>
+
+          <h2>Input labels</h2>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-input">
+            <form class="form" action="#">
+              <div class="input-group">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+
+              <div class="input-group">
+                <label for="password">Enter your password</label>
+                <input type="password" name="email" placeholder="Password" />
+              </div>
+            </form>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060e5da4f5770015a88527"
+              style="width: 100%; height: 229px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Input with Validation</h2>
+          <p>
+            Input validation provides confirmation feedback message to the user.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-input" id="input">
+            <form class="form" action="#">
+              <div class="input-group">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" placeholder="Email" />
+                <div class="input-feedback success">Valid email address!</div>
+              </div>
+
+              <div class="input-group">
+                <label for="password">Enter your password</label>
+                <input type="password" name="email" placeholder="Password" />
+                <div class="input-feedback success">password accepted</div>
+              </div>
+            </form>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060eb2a4f5770015a88528"
+              style="width: 100%; height: 268px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Input with error style</h2>
+          <p>Input Error provides rejection feedback message to the user.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-input">
+            <form class="form" action="#">
+              <div class="input-group">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" placeholder="Email" />
+                <div class="input-feedback error">Invalid email address!</div>
+              </div>
+
+              <div class="input-group">
+                <label for="password">Enter your password</label>
+                <input type="password" name="email" placeholder="Password" />
+                <div class="input-feedback error">incorrect password</div>
+              </div>
+            </form>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060efda4f5770015a88529"
+              style="width: 100%; height: 255px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="list">
+          <h1 class="component__name">Lists</h1>
+          <p class="component__description">
+            Types of lists using simple classes.
+          </p>
+
+          <h2>Default Lists</h2>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-lists">
+            <ol class="ordered-list">
+              <li class="list-items">Item 1</li>
+              <li class="list-items">Item 2</li>
+              <li class="list-items">Item 3</li>
+              <li class="list-items">Item 4</li>
+              <li class="list-items">Item 5</li>
+            </ol>
+
+            <ul class="unordered-list">
+              <li class="list-items">Item one</li>
+              <li class="list-items">Item two</li>
+              <li class="list-items">Item three</li>
+              <li class="list-items">Item four</li>
+              <li class="list-items">Item five</li>
+            </ul>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060f84a4f5770015a8852b"
+              style="width: 100%; height: 281px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Spaced Lists</h2>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-lists">
+            <ul class="spaced-list">
+              <li class="list-items">Item 1</li>
+              <li class="list-items">Item 2</li>
+              <li class="list-items">Item 3</li>
+              <li class="list-items">Item 4</li>
+              <li class="list-items">Item 5</li>
+            </ul>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62060fc2a4f5770015a8852c"
+              style="width: 100%; height: 177px"
+              frameborder="0"
+            ></iframe>
+          </div>
+
+          <h2>Stacked Lists</h2>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-lists">
+            <ul class="stacked-list">
+              <li class="list-items">Item 1</li>
+              <li class="list-items">Item 2</li>
+              <li class="list-items">Item 3</li>
+              <li class="list-items">Item 4</li>
+              <li class="list-items">Item 5</li>
+            </ul>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62061002a4f5770015a8852d"
+              style="width: 100%; height: 177px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="navbar">
+          <h1 class="component__name">Navbar</h1>
+          <p class="component__description">
+            navigation bar is a section of a graphical user interface intended
+            to aid visitors in accessing information
+          </p>
+
+          <h2>Default Navbar</h2>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-navbar">
+            <!-- navbar -->
+            <nav class="saiyan-navbar">
+              <div class="navbar__brand-container">
+                <a class="navbar__brand__name navbar__links" href="#"
+                  >Saiyan Merch</a
+                >
+              </div>
+
+              <div class="navbar__search">
+                <input
+                  class="navbar__searchbar"
+                  type="text"
+                  placeholder="Search Items"
+                />
+              </div>
+
+              <div class="navbar__list-container">
+                <ul class="navbar__list">
+                  <li class="navbar__items">
+                    <a href="#">
+                      <div class="navbar__icon-badge">
+                        <span class="navbar__badge__icon"
+                          ><i class="fa-solid fa-user"></i
+                        ></span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navbar__items">
+                    <a href="#">
+                      <div class="navbar__icon-badge">
+                        <span class="navbar__badge__icon"
+                          ><i class="fa-solid fa-heart"></i
+                          ><span class="navbar__badge__icon-badge"
+                            >3</span
+                          ></span
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navbar__items">
+                    <a href="#">
+                      <div class="navbar__icon-badge">
+                        <span class="navbar__badge__icon"
+                          ><i class="fas fa-shopping-cart"></i
+                          ><span class="navbar__badge__icon-badge"
+                            >2</span
+                          ></span
+                        >
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- nav end -->
+          </div>
+          <div class="component__iframe"></div>
+        </section>
+
+        <section class="component" id="toast">
+          <h1 class="component__name">Toast</h1>
+          <p class="component__description">
+            Toast is a message that appears on bottom of the page.
+          </p>
+
+          <h2>Default Toast</h2>
+          <p>Toast is a message that appears on bottom of the page.</p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-toast">
+            <div class="toast-primary">
+              Can't send Message. Retry in 5 seconds.
+              <a class="toast-btn">Retry</a>
+              <span class="toast-close"><i class="fa-solid fa-xmark"></i></span>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/620610c8a4f5770015a8852e"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="ratings">
+          <h1 class="component__name">Ratings</h1>
+          <p class="component__description">
+            To use ratings use .ratings class names in your container.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-ratings">
+            <div class="ratings">
+              <span class="ratings-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star off"></i>
+                <i class="fa-solid fa-star off"></i>
+              </span>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6206bf303d90130015398b9a"
+              style="width: 100%; height: 203px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+
+        <section class="component" id="modals">
+          <h1 class="component__name">Modals</h1>
+          <p class="component__description">
+            Modals are pop up messages, displayed on the top of the screen.
+          </p>
+
+          <h1 class="component__example">Examples</h1>
+          <div class="component__example-container example-modal">
+            <div class="modal">
+              <div class="modal__head">
+                <h2 class="modal__title">Modal Title</h2>
+                <span class="modal__close"
+                  ><i class="fa-solid fa-xmark"></i
+                ></span>
+              </div>
+              <hr />
+              <p class="modal__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, numquam.
+              </p>
+
+              <hr />
+              <div class="modal__CTA">
+                <a class="modal__primary--btn" href="#">Close</a>
+                <a class="modal__secondary--btn" href="#">Save Changes</a>
+              </div>
+            </div>
+          </div>
+          <div class="component__iframe">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/6206bfcd3d90130015398b9c"
+              style="width: 100%; height: 307px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
