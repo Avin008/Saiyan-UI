@@ -1,0 +1,36 @@
+:root {
+  --toast-bg-color: #3454d1;
+  --toast-text-color: white;
+  --toast-hover-bg-color: #3e65fb;
+}
+
+/* toast styles */
+
+.toast-primary {
+  background-color: var(--toast-bg-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--toast-text-color);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  width: max-content;
+}
+
+.toast-btn {
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.toast-btn:hover {
+  background-color: var(--toast-hover-bg-color);
+}
+
+.toast-close {
+  cursor: pointer;
+}
+
+/* toast styles end */
