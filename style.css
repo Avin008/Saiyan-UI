@@ -136,7 +136,7 @@ body {
   box-shadow: 0px 0px 2px var(--color-gray);
   border-radius: 0.5rem;
   margin: 1rem;
-  height: 31.25rem;
+  height: 28rem;
   position: sticky;
   top: 1rem;
 }
@@ -158,7 +158,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding-inline-start: 0;
-  height: 20rem;
+  height: 25rem;
   overflow-y: scroll;
 }
 
