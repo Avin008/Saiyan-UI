@@ -116,3 +116,40 @@ You will find Navigation on
 
 ---
 
+
+### Modals
+
+List can be used to add differant type of lists in your projects.
+
+You will find differant types of lists on 
+
+- default list
+- Simple spaced list
+- stacked list
+
+---
+
+
+### Toast
+
+List can be used to add differant type of lists in your projects.
+
+You will find differant types of lists on 
+
+- default list
+- Simple spaced list
+- stacked list
+
+---
+
+### Ratings
+
+List can be used to add differant type of lists in your projects.
+
+You will find differant types of lists on 
+
+- default list
+- Simple spaced list
+- stacked list
+
+---
