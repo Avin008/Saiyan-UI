@@ -144,7 +144,7 @@ body {
 .sidebar__items {
   display: flex;
   justify-content: start;
-  padding: 1rem;
+  padding: 0.3rem 1rem;
 }
 
 .sidebar__heading {
