@@ -1,0 +1,93 @@
+/* ||saiyan navbar */
+
+.saiyan-navbar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding: 1rem;
+  background-color: var(--navbar-background-color);
+  box-shadow: 0 4px 2px -2px var(--navbar-shadow-color);
+}
+
+.navbar-fixed {
+  position: fixed;
+  width: 99%;
+  top: 0;
+  z-index: 100;
+}
+
+.saiyan-navbar .navbar__brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saiyan-navbar .navbar__search {
+  display: flex;
+  align-items: flex-start;
+}
+
+.saiyan-navbar .navbar__searchbar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.8rem;
+}
+
+.saiyan-navbar .navbar__list-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.saiyan-navbar .navbar__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.saiyan-navbar .navbar__links {
+  text-decoration: none;
+  color: var(--navbar-link-color);
+  font-size: 1.4rem;
+}
+
+.saiyan-navbar .navbar__span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.saiyan-navbar .navbar__brand__name {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--navbar-brand-color);
+}
+
+.saiyan-navbar .navbar__badge__icon {
+  font-size: 2rem;
+  position: relative;
+  color: var(--badge-bg-color);
+}
+
+.saiyan-navbar .navbar__badge__icon-badge {
+  background-color: var(--icon-badge-bg);
+  border-radius: 50%;
+  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 2px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -15px;
+  top: -10px;
+  color: var(--badge-text-color);
+  font-weight: 600;
+}
+
+/* ||saiyan navbar end */
