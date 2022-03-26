@@ -113,6 +113,13 @@ You will find Navigation on https://github.com/Avin008/saiyan-ui/tree/dev/Compon
 
 ---
 
+### Text Utilities
+
+Text Utilities can be used to cusomize text content.
+
+You will find Text Utilities on https://github.com/Avin008/saiyan-ui/tree/dev/Components/Text-Utilities
+
+---
 
 ### Modals
 
@@ -135,5 +142,12 @@ You will find Modals on https://github.com/Avin008/saiyan-ui/tree/dev/Components
 
 Rating is used in website to rate something like products or experience.
 You will find Ratings on https://github.com/Avin008/saiyan-ui/tree/dev/Components/Ratings
+
+---
+
+### Simplified Grids
+
+Simplified Grids is used divide the view into sections.
+You will find Simplified Grids on https://github.com/Avin008/saiyan-ui/tree/dev/Components/Simplified-Grids
 
 ---
