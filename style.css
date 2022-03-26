@@ -15,6 +15,7 @@
 @import url("/Components/image/image.css");
 @import url("/Components/Navbar/navbar.css");
 @import url("./Components/Text-Utilities/text-utilities.css");
+@import url("/Components//Simplified-Grids/simplified-grids.css");
 
 body {
   font-family: "Montserrat", sans-serif;
