@@ -115,7 +115,7 @@ You will find Navigation on https://github.com/Avin008/saiyan-ui/tree/dev/Compon
 
 ### Text Utilities
 
-Text Utilities can be used to cusomize text content.
+Text Utilities can be used to customize text content.
 
 You will find Text Utilities on https://github.com/Avin008/saiyan-ui/tree/dev/Components/Text-Utilities
 
