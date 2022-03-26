@@ -14,6 +14,7 @@
 @import url("/Components/Modals/modals.css");
 @import url("/Components/image/image.css");
 @import url("/Components/Navbar/navbar.css");
+@import url("./Components/Text-Utilities/text-utilities.css");
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -214,6 +215,15 @@ body {
 
 .example-navbar {
   display: block;
+}
+
+.example-text-utilities {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-text-utilities > * {
+  margin: 0;
 }
 
 .vertical__container {

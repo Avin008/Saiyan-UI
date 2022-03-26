@@ -1,0 +1,7 @@
+.gray-text {
+  color: var(--color-gray);
+}
+
+.center-text {
+  text-align: center;
+}
